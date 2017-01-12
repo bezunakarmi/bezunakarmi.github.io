@@ -118,8 +118,8 @@ $(document).ready(function(){
 
 
 // ==========  START GOOGLE MAP ========== //
-function initialize() {
-    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+function initialize() { //27.6993935,85.3052946
+    var myLatLng = new google.maps.LatLng(27.6993935, 85.3052946);
 
     var mapOptions = {
         zoom: 14,
@@ -142,7 +142,7 @@ function initialize() {
         position: myLatLng,
         map: map,
         icon: 'img/location-icon.png',
-        title: '',
+        title: ''
     });
 
 }
