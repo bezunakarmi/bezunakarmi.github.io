@@ -723,3 +723,9 @@ label.error {
   right: 25px;
   z-index: 9;
 }
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  display: block;
+  max-width: 127%;
+  height: 230px;
+}
