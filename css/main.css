@@ -130,9 +130,9 @@ body > section,
 }
 
 #preloader > img {
-  left: 47%;
+  left: 40%;
   position: absolute;
-  top: 48%;
+  top: 30%;
 }
 
 
@@ -250,7 +250,7 @@ top: -8px;
 }
 
 .social-links li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
   display: block;
   margin: 0 6px;
 }
